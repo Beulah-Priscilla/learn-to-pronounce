@@ -1,0 +1,14 @@
+/* Design of the popup */
+.popup-box {
+    visibility: hidden;
+    position: fixed;
+    z-index: 999999999;
+    width: 100px;
+    background-color: antiquewhite;
+    color: darkslategrey;
+    border-radius: 10px;
+    padding: 10px 40px 10px 20px;
+    font-size: medium;
+  }
+  
+

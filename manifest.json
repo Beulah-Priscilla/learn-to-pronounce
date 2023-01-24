@@ -1,0 +1,24 @@
+{
+    "name": "Learn to pronunce",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Adds a popup near any selected word for accessing three different english pronunciations",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "icons": {
+      "16": "/images/16-2.png",
+      "32": "/images/32-2.png",
+      "48": "/images/48-2.png",
+      "128": "/images/128-2.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*/*"],
+            "css": ["main.css"],
+            "js": ["pronounce.js"]
+        }
+    ]
+  }
